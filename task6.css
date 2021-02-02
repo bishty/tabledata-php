@@ -1,0 +1,73 @@
+* {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+.itemHead {
+background-color: rgb(126, 19, 19);
+color: white;
+margin-top: 30px;
+width: 100%;
+margin: auto;
+text-align: center;
+overflow: hidden;
+}
+
+
+
+.itemHead>h1 {
+letter-spacing: 2px;
+margin-top: 20px;
+}
+
+.itemsubHead {
+background-color: rgb(45, 241, 231);
+color: white;
+margin-bottom: 30px;
+width: 100%;
+margin-top: 20px;
+padding: 10px;
+text-align: center;
+overflow: hidden;
+font-family: sans-serif;
+}
+
+.itemCategory {
+width: 33.3%;
+float: left;
+text-align: center;
+padding: 20px;
+margin-bottom: 10px;
+}
+
+.itemCategory>h5 {
+margin-bottom: 5px;
+}
+
+.item_image {
+width: 160px;
+height: 160px;
+border-radius: 20%;
+margin-bottom: 20px;
+}
+
+.btncart {
+width: 150px;
+border-radius: 15px;
+height: 40px;
+background-color: coral;
+color: white;
+border: none;
+margin-top: 20px;
+}
+
+.btncart:focus {
+border: none;
+outline: none;
+box-shadow: 5px 5px #4eece4;
+}
+
+.btncart:hover {
+box-shadow: 5px 5px #4eec95;
+}
